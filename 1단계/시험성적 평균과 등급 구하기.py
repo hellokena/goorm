@@ -1,0 +1,8 @@
+a,b,c = map(int, input().split())
+avg = (a+b+c)/float(3)
+print("%.2f"%round(avg,2), end=' ')
+if avg >= 90: print('A')
+elif avg>=80: print('B')
+elif avg>=70: print('C')
+elif avg>=60: print('D')
+else: print('F')
